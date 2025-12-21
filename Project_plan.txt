@@ -1,0 +1,149 @@
+Project Scope (Low Level)
+
+User registration and login
+
+Add rental property
+
+View property listings
+
+Property details page
+
+Contact owner through phone/email
+
+++++++++++++++++++++++++++++++++++
+
+User Roles
+1. Owner
+
+Can add mess, room, or flat details
+
+Can provide contact information
+
+2. User (Tenant)
+
+Can view available properties
+
+Can contact the owner
+
+3. Admin (Optional)
+
+Manages database manually
+
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+System Design (SDLC – Phase 2)
+
+Frontend (UI)
+    ↓
+Backend (API & Logic)
+    ↓
+Database
+
++++++++++++++++++++++++++++++++++++
+Functional Requirements
+
+User signup and login
+
+Add property details
+
+Display all property listings
+
+View property details
+
+Contact owner
+
+++++++++++++++++++++++++++++++++++
+
+Technology Stack (Beginner Friendly)
+Frontend
+
+HTML
+
+CSS
+
+JavaScript
+
+Backend
+
+Python (Flask) or Node.js (Express)
+
+Database
+
+SQLite or MySQL
+
+6️⃣ Database Design (Basic)
+Table: Users
+
+user_id
+
+name
+
+phone
+
+email
+
+role (owner / tenant)
+
+Table: Properties
+
+property_id
+
+property_type (mess / room / flat)
+
+rent
+
+location
+
+description
+
+contact_number
+
+7️⃣ System Flow
+Owner → Login → Add Property  
+User  → Login → View Properties → Contact Owner
+
+8️⃣ SDLC Model Used
+
+This project follows the Waterfall SDLC Model in the basic version.
+
+SDLC Phases:
+
+Requirement Analysis
+
+System Design
+
+Implementation
+
+Testing
+
+Deployment (Local)
+
+Maintenance
+
+
++++++++++++++++++++++++++++++++++++
+
+9️⃣ Testing Strategy
+
+Login functionality testing
+
+Property form validation
+
+Property listing display testing
+
++++++++++++++++++++++++++++++++++++++++++
+
+🔼 Future Enhancements (Upgrades)
+
+Search and filter by location
+
+Admin dashboard
+
+Online payment system
+
+Google Maps integration
+
+Chat system
+
+Rating and review system
