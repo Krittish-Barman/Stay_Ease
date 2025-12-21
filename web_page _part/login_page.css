@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #eef2ff, #f4f6f9);
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, #2c7be5, #6f42c1);
+    color: white;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+.header nav a:hover,
+.header nav a.active {
+    border-bottom: 2px solid #fff;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.container h2 {
+    margin-bottom: 12px;
+    color: #2c7be5;
+    font-size: 22px;
+}
+
+.container p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-size: 15.5px;
+    color: #555;
+}
+
+.container ul {
+    margin-bottom: 25px;
+    padding-left: 25px;
+}
+
+.container ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* Login box */
+.login-box {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(135deg, #eef2ff, #e6e9ff);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.login-box p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.login-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #6f42c1, #2c7be5);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 18px;
+    background: linear-gradient(90deg, #2c7be5, #6f42c1);
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
