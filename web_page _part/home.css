@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: linear-gradient(90deg, #2c7be5, #6f42c1);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.header nav a.active {
+    border-bottom: 2px solid white;
+}
+
+.header nav .btn {
+    background: white;
+    color: #2c7be5;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #eef2ff, #e6e9ff);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-box input,
+.search-box select {
+    padding: 12px;
+    width: 220px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.search-box button {
+    padding: 12px 25px;
+    border: none;
+    background: #6f42c1;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Categories */
+.categories {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.category-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #2c7be5;
+    margin-bottom: 10px;
+}
+
+/* Listings */
+.listings {
+    background: #ffffff;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.listing-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.listing-card {
+    background: #f4f6f9;
+    padding: 20px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+/* CTA */
+.cta {
+    background: linear-gradient(90deg, #2c7be5, #6f42c1);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta a {
+    display: inline-block;
+    margin-top: 15px;
+    background: white;
+    color: #2c7be5;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    background: #2c7be5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
