@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Your Property | Stay_Ease</title>
+    <link rel="stylesheet" href="listing.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <img src="images/logo.png" alt="Stay_Ease">
+        <span>Stay_Ease</span>
+    </div>
+
+    <nav>
+        <a href="home_page.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="add_property.html" class="active">List Property</a>
+        <a href="logout.html">Logout</a>
+    </nav>
+</header>
+
+<section class="form-section">
+    <div class="form-box">
+        <h2>List Your Property</h2>
+        <p>Fill the details to rent your property</p>
+
+        <form>
+            <div class="row">
+                <div class="input-group">
+                    <label>Property Title</label>
+                    <input type="text" placeholder="e.g. 2BHK Flat for Rent">
+                </div>
+
+                <div class="input-group">
+                    <label>Property Type</label>
+                    <select>
+                        <option>Select</option>
+                        <option>Mess</option>
+                        <option>Room</option>
+                        <option>Flat</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label>Location</label>
+                    <input type="text" placeholder="City / Area">
+                </div>
+
+                <div class="input-group">
+                    <label>Monthly Rent (₹)</label>
+                    <input type="number" placeholder="e.g. 5000">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Description</label>
+                <textarea placeholder="Write property details..."></textarea>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label>Contact Number</label>
+                    <input type="tel" placeholder="Owner phone number">
+                </div>
+
+                <div class="input-group">
+                    <label>Upload Images</label>
+                    <input type="file">
+                </div>
+            </div>
+
+            <button type="submit">Submit Property</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2025 Stay_Ease. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
