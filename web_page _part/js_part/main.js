@@ -25,14 +25,14 @@ function isLoggedIn() {
 function logoutUser() {
     localStorage.removeItem("stayease_user");
     alert("You have been logged out successfully!");
-    window.location.href = "login.html";
+    window.location.href = "login_page.html";
 }
 
 /* --------- Protect Pages (Optional) --------- */
 function protectPage() {
     if (!isLoggedIn()) {
         alert("Please login first to access this page.");
-        window.location.href = "login.html";
+        window.location.href = "login_page.html";
     }
 }
 
