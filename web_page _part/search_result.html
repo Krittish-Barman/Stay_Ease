@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Results | Stay_Ease</title>
+    <link rel="stylesheet" href="css_part/search_result.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <h1>Stay_Ease</h1>
+    <nav>
+        <span id="user-name"></span>
+        <a href="index.html">Home</a>
+        <a href="listing.html">List Property</a>
+        <button onclick="logoutUser()">Logout</button>
+    </nav>
+</header>
+
+<!-- Search Info -->
+<section class="search-info">
+    <h2>Search Results</h2>
+    <p>Showing available properties near your location</p>
+</section>
+
+<!-- Property Cards -->
+<section class="results-container">
+
+    <div class="property-card">
+        <img src="images/room1.jpg" alt="Room">
+        <h3>Single Room - City Center</h3>
+        <p>₹5,000 / month</p>
+        <p>Location: Kolkata</p>
+        <button>View Details</button>
+    </div>
+
+    <div class="property-card">
+        <img src="images/room2.jpg" alt="Room">
+        <h3>PG for Boys</h3>
+        <p>₹4,000 / month</p>
+        <p>Location: Salt Lake</p>
+        <button>View Details</button>
+    </div>
+
+    <div class="property-card">
+        <img src="images/room3.jpg" alt="Room">
+        <h3>1BHK Flat</h3>
+        <p>₹8,000 / month</p>
+        <p>Location: New Town</p>
+        <button>View Details</button>
+    </div>
+
+</section>
+
+<!-- JS -->
+<script src="js/main.js"></script>
+<script>
+    protectPage();
+</script>
+
+</body>
+</html>
