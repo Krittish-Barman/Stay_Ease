@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Properties | Stay_Ease</title>
+     <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="css_part/my_property.css">
+    <script src="js__part/auth.js"></script>
+    <script src="js_part/my_property.js" defer></script>
+</head>
+
+<body onload="checkLogin(); loadMyProperties();">
+
+<header class="header">
+    <h1>Stay_Ease</h1>
+    <div>
+        <span id="user-name"></span>
+        <button onclick="logoutUser()">Logout</button>
+    </div>
+</header>
+
+<section class="container">
+    <h2>My Listed Properties</h2>
+
+    <div id="propertyList" class="property-list">
+        <!-- Cards will appear here -->
+    </div>
+</section>
+
+</body>
+</html>
