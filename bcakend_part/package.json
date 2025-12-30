@@ -1,21 +1,6 @@
 {
-  "name": "stay_ease",
-  "version": "1.0.0",
-  "description": "Online Mess / Room / Flat Rental Platform",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Krittish-Barman/Stay_Ease.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Krittish-Barman/Stay_Ease/issues"
-  },
-  "homepage": "https://github.com/Krittish-Barman/Stay_Ease#readme"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
 }

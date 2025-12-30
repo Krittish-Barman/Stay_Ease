@@ -52,3 +52,27 @@ function showUserName() {
 
 /* --------- Run User Name Display --------- */
 document.addEventListener("DOMContentLoaded", showUserName);
+
+function loginUser() {
+    const userid = document.getElementById("userid").value;
+    const password = document.getElementById("password").value;
+
+    fetch("http://localhost:5000/login", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ userid, password })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.success) {
+            alert("Login Success");
+            localStorage.setItem("user", data.user);
+            window.location.href = "home.html";
+        } else {
+            alert("Invalid login");
+        }
+    });
+}
+
